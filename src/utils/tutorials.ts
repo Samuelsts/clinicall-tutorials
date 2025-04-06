@@ -1,5 +1,6 @@
 export const webTutorials = [
   {
+    
     module: "Operacional",
     description: "Funcionalidades básicas do dia a dia, como cadastro de pacientes, agendamento e prontuário.",
     videos: [

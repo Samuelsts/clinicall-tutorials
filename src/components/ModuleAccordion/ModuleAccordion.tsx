@@ -1,6 +1,7 @@
 import { useState } from "react";
 import VideoCard from "../VideoCard/VideoCard";
 
+
 type Video = {
   title: string;
   description: string;
@@ -19,16 +20,16 @@ const ModuleAccordion = ({ module, description, videos }: ModuleAccordionProps) 
   const toggleAccordion = () => setIsOpen(!isOpen);
 
   return (
-    <div className="border border-gray-200 rounded-lg shadow-sm mb-6 bg-white">
+    <div className="border border-gray-200 rounded-lg shadow-sm mb-6 bg-white text-blc">
       <button
         onClick={toggleAccordion}
         className="w-full flex justify-between items-center p-4 bg-gray-100 hover:bg-gray-200 transition rounded-t-lg"
       >
         <div className="text-left">
-          <h2 className="text-lg font-semibold text-gray-800">{module}</h2>
+          <h2 className="text-lg font-semibold text-desktop">{module}</h2>
           <p className="text-sm text-gray-600">{description}</p>
         </div>
-        <span className="text-xl">{isOpen ? "−" : "+"}</span>
+        <span className="text-xl bg-brand/70 w-6 h-6 rounded-md text-white ">{isOpen ? "−" : "+"}</span>
       </button>
 
       {isOpen && (

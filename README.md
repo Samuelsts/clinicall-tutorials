@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# 🖥️ ClinicAll Tutoriais
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma web criada para exibir tutoriais em vídeo e texto dos sistemas **Clinic All Web** e **Clinic All Desktop**.
 
-Currently, two official plugins are available:
+Desenvolvido em React com Vite, TypeScript e TailwindCSS, com foco em uma interface moderna, simples e funcional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Modal inicial obrigatório para cadastro de **Nome** e **Razão Social**
+- Escolha entre versão **Web** ou **Desktop**
+- Redirecionamento automático com base na seleção (salva no `localStorage`)
+- Páginas separadas com tutoriais organizados por módulos do sistema
+- Player de vídeo integrado (YouTube)
+- Layout responsivo e clean
+- Estrutura preparada para futuras melhorias (autenticação, busca, ads, etc.)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧠 Tecnologias utilizadas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/en/main)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 📁 Estrutura de Pastas
+src/ 
+├── components/ # Componentes reutilizáveis 
+│ ├── Modal/ # Modal inicial com formulário 
+│ ├── Header/ # Cabeçalho com links de navegação 
+│ ├── Footer/ # Rodapé da aplicação 
+│ └── VideoCard/ # Componente para exibir vídeos 
+├── pages/
+│ ├── WebVersion/ # Página com tutoriais do sistema Web 
+│ └── DesktopVersion/ # Página com tutoriais do sistema Desktop 
+├── hooks/ # Hooks personalizados (futuramente) 
+├── contexts/ # Contextos globais (futuramente) 
+├── utils/ # Funções auxiliares 
+└── assets/ # Imagens e ícones
+
+📌 Observações
+As informações preenchidas no modal são salvas localmente no navegador (localStorage)
+
+Ainda não há banco de dados ou autenticação (planejado para o futuro)
+
+O projeto está em constante evolução, com novas funcionalidades sendo adicionadas gradativamente
+
+🧑‍💻 Desenvolvido por
+SAM</>
+Suporte Técnico e Desenvolvedor Web
+LinkedIn (em breve)
+Portfólio (em breve)
+
+
