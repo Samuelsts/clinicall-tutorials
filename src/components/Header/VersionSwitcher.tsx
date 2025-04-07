@@ -6,7 +6,7 @@ const VersionSwitcher = () => {
   const isOnDesktopPage = location.pathname.includes("desktop");
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 sm:mt-1">
       {isOnWebPage && (
         <Link
           to="/desktop"

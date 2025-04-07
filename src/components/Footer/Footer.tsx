@@ -27,8 +27,8 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className="text-sm text-center text-web mt-96 p-4 relative">
-      <div className="h-6 mb-6 overflow-hidden">
+    <footer className="text-xs text-center text-web mt-8 p-6 relative sm:mt-1">
+      <div className="h-6 mb-4 overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.p
             key={phrases[currentIndex]}

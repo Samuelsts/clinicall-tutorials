@@ -1,59 +1,55 @@
-# 🖥️ ClinicAll Tutoriais
+# 📘 Clinic All - Plataforma de Tutoriais
 
-Plataforma web criada para exibir tutoriais em vídeo e texto dos sistemas **Clinic All Web** e **Clinic All Desktop**.
+Bem-vindo à plataforma de tutoriais do sistema Clinic All. Este projeto foi criado para facilitar o aprendizado de novos usuários com vídeos explicativos e instruções visuais.
 
-Desenvolvido em React com Vite, TypeScript e TailwindCSS, com foco em uma interface moderna, simples e funcional.
+## 🚀 Funcionalidades
 
----
+- Vídeos tutoriais organizados por módulos
+- Alternância entre tutoriais da versão Web e Desktop
+- Animações suaves com Framer Motion
+- Marca d’água personalizada e footer com frases rotativas
+- Armazenamento local de preferências (LocalStorage)
+- Design responsivo e UI moderna com TailwindCSS
 
-## 🛠️ Funcionalidades
+## 🖥️ Tecnologias Utilizadas
 
-- Modal inicial obrigatório para cadastro de **Nome** e **Razão Social**
-- Escolha entre versão **Web** ou **Desktop**
-- Redirecionamento automático com base na seleção (salva no `localStorage`)
-- Páginas separadas com tutoriais organizados por módulos do sistema
-- Player de vídeo integrado (YouTube)
-- Layout responsivo e clean
-- Estrutura preparada para futuras melhorias (autenticação, busca, ads, etc.)
-
----
-
-## 🧠 Tecnologias utilizadas
-
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [React Router DOM](https://reactrouter.com/en/main)
-
----
+- React
+- TypeScript
+- TailwindCSS
+- Vite
+- Framer Motion
+- SVG Icons
 
 ## 📁 Estrutura de Pastas
-src/ 
-├── components/ # Componentes reutilizáveis 
-│ ├── Modal/ # Modal inicial com formulário 
-│ ├── Header/ # Cabeçalho com links de navegação 
-│ ├── Footer/ # Rodapé da aplicação 
-│ └── VideoCard/ # Componente para exibir vídeos 
+
+src/
+├── components/ # Componentes reutilizáveis
+│ ├── Modal/ # Modal inicial com formulário
+│ ├── Header/ # Cabeçalho com links de navegação
+│ ├── Footer/ # Rodapé da aplicação
+│ └── VideoCard/ # Componente para exibir vídeos
 ├── pages/
-│ ├── WebVersion/ # Página com tutoriais do sistema Web 
-│ └── DesktopVersion/ # Página com tutoriais do sistema Desktop 
-├── hooks/ # Hooks personalizados (futuramente) 
-├── contexts/ # Contextos globais (futuramente) 
-├── utils/ # Funções auxiliares 
+│ ├── WebVersion/ # Página com tutoriais do sistema Web
+│ └── DesktopVersion/ # Página com tutoriais do sistema Desktop
+├── hooks/ # Hooks personalizados (futuramente)
+├── contexts/ # Contextos globais (futuramente)
+├── utils/ # Funções auxiliares
 └── assets/ # Imagens e ícones
 
 📌 Observações
+
+Projeto voltado inicialmente para uso interno de clínicas e hospitais.
+
 As informações preenchidas no modal são salvas localmente no navegador (localStorage)
 
 Ainda não há banco de dados ou autenticação (planejado para o futuro)
 
 O projeto está em constante evolução, com novas funcionalidades sendo adicionadas gradativamente
 
+Sobre
+Feito com 💙, React e algumas frases aleatórias no rodapé.
 🧑‍💻 Desenvolvido por
 SAM</>
-Suporte Técnico e Desenvolvedor Web
+Desenvolvedor Web
 LinkedIn (em breve)
 Portfólio (em breve)
-
-

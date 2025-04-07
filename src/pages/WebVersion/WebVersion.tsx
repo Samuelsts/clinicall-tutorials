@@ -8,33 +8,38 @@ import WebIcon from "../../assets/icons/web.svg";
 import { Footer } from "../../components/Footer/Footer";
 import { motion } from "framer-motion";
 
-
-
 const WebVersion = () => {
   return (
-    <div className="min-h-screen bg-gray-50 flex">
-      <header className="w-72  bg-brand text-white py-6 shadow-sm flex-shrink-0">
+    <div className="min-h-screen bg-gray-50 flex flex-col sm:flex-row">
+      <header className="w-full sm:w-20 bg-brand text-white py-6 shadow-sm flex-shrink-0">
         <div className="px-4 flex flex-col items-center">
-          <img src={WebIcon} alt="Versão Desktop" className="w-20 h-auto p-4 mb-1 m-auto bg-backgroundAlt rounded-full shadow-xl" />
-          <h1 className="text-desktop text-xl font-bold text-center">Clinic All - Versão Web</h1>
-          <p className="text-desktop text-xs text-center mt-1 mb-4">Tutoriais para usuários da versão web do sistema.</p>
+          <img
+            src={WebIcon}
+            alt="Versão Web"
+            className="w-16 sm:w-10 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
+          />
+          <h1 className="text-desktop text-lg sm:text-xl font-bold text-center">
+            Clinic All - Versão Web
+          </h1>
+          <p className="text-desktop text-xs text-center mt-1 mb-4">
+            Tutoriais para usuários da versão web do sistema.
+          </p>
           <VersionSwitcher />
           <div className="mt-4">
             <ResetUserButton />
           </div>
         </div>
-        {/* Footer descendo com espaço e amor */}
         <Footer />
       </header>
 
-      <div className="min-h-screen mx-auto bg-gray-50 relative watermark">
+      <div className="flex-1 bg-gray-50 relative watermark w-full">
         <motion.main
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto px-4 py-8"
+          className="max-w-4xl mx-auto px-4 py-8 w-full"
         >
-          <main className="relative z-10 flex-1 px-6 py-8 overflow-y-auto">
+          <main className="relative z-10 px-2 sm:px-6 py-6 overflow-y-auto">
             <WelcomeHeader
               pageTitle="Plataforma de Tutoriais da Versão Web"
               pageDescription="Aqui você encontra vídeos e instruções para utilizar o sistema Clinic All Web com mais facilidade."

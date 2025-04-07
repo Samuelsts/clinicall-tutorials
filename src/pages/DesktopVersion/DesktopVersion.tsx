@@ -11,34 +11,36 @@ import { motion } from "framer-motion";
 
 const DesktopVersion = () => {
   return (
-    <div className="min-h-screen bg-gray-50 flex">
-      <header className="w-72 bg-desktop/90 text-white py-6 shadow-sm flex-shrink-0">
+    <div className="min-h-screen bg-gray-50 flex flex-col sm:flex-row">
+      <header className="w-full sm:w-60 bg-desktop/90 text-white py-6 shadow-sm flex-shrink-0">
         <div className="px-4 flex flex-col items-center">
           <img
             src={DesktopIcon}
             alt="Versão Desktop"
-            className="w-20 h-auto p-4 mb-1 m-auto bg-backgroundAlt rounded-full shadow-xl"
+            className="w-16 sm:w-10 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
           />
-          <h1 className="text-support text-xl font-bold text-center">Clinic All - Versão Desktop</h1>
+          <h1 className="text-support text-lg sm:text-xl font-bold text-center">
+            Clinic All - Versão Desktop
+          </h1>
           <p className="text-support text-xs text-center mt-1 mb-4">
             Tutoriais para usuários da versão desktop do sistema.
           </p>
           <VersionSwitcher />
-          <div className="mt-4">
+          <div className="mt-4 sm:mt-0">
             <ResetUserButton />
           </div>
         </div>
         <Footer />
       </header>
 
-      <div className="min-h-screen mx-auto bg-gray-50 relative watermark">
+      <div className="flex-1 bg-gray-50 relative watermark w-full">
         <motion.main
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto px-4 py-8"
+          className="max-w-4xl mx-auto px-4 py-8 w-full"
         >
-          <main className="relative z-10 flex-1 px-6 py-8 overflow-y-auto">
+          <main className="relative z-10 px-2 sm:px-6 py-6 overflow-y-auto">
             <WelcomeHeader
               pageTitle="Plataforma de Tutoriais da Versão Desktop"
               pageDescription="Explore os tutoriais que vão te ajudar a dominar o Clinic All Desktop com agilidade."
@@ -59,4 +61,3 @@ const DesktopVersion = () => {
 };
 
 export default DesktopVersion;
-
