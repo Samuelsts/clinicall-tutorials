@@ -17,7 +17,7 @@ const DesktopVersion = () => {
           <img
             src={DesktopIcon}
             alt="Versão Desktop"
-            className="w-16 sm:w-10 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
+            className="w-20 sm:w-20 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
           />
           <h1 className="text-support text-lg sm:text-xl font-bold text-center">
             Clinic All - Versão Desktop

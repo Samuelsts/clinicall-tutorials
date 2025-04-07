@@ -11,12 +11,12 @@ import { motion } from "framer-motion";
 const WebVersion = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col sm:flex-row">
-      <header className="w-full sm:w-20 bg-brand text-white py-6 shadow-sm flex-shrink-0">
+      <header className="w-full sm:w-60 bg-brand text-white py-6 shadow-sm flex-shrink-0">
         <div className="px-4 flex flex-col items-center">
           <img
             src={WebIcon}
             alt="Versão Web"
-            className="w-16 sm:w-10 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
+            className="w-16 sm:w-20 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
           />
           <h1 className="text-desktop text-lg sm:text-xl font-bold text-center">
             Clinic All - Versão Web
