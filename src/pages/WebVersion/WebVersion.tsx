@@ -16,7 +16,7 @@ const WebVersion = () => {
           <img
             src={WebIcon}
             alt="Versão Web"
-            className="w-16 sm:w-20 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
+            className="w-20 sm:w-20 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
           />
           <h1 className="text-desktop text-lg sm:text-xl font-bold text-center">
             Clinic All - Versão Web
@@ -25,7 +25,7 @@ const WebVersion = () => {
             Tutoriais para usuários da versão web do sistema.
           </p>
           <VersionSwitcher />
-          <div className="mt-4">
+          <div className="mt-4 sm:mt-0">
             <ResetUserButton />
           </div>
         </div>
