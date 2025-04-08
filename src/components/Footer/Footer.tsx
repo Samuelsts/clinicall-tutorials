@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const phrases = [
   "Feito com React, Tailwind e um leve desespero existencial.",
-  "Desenvolvido com 💙 e algumas abas do Stack Overflow, ChatGPT, Youtube ....",
-  "Muita IA aqui… e um dev tentando acertar.",
+  "Desenvolvido com 💙 e algumas abas do Stack Overflow, ChatGPT, Youtube.",
   "Codado com amor... e alguns commits suspeitos.",
   "Plataforma 100% livre de bugs (ou quase!).",
   "Feito com 💙, insomnia e refatorações que ninguém pediu.",
@@ -27,7 +26,7 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className="text-xs text-center text-web mt-8 p-6 relative sm:mt-1">
+    <footer className="text-xs text-center text-blcg mt-8 p-6 relative sm:mt-1">
       <div className="h-6 mb-4 overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.p
@@ -48,7 +47,7 @@ export function Footer() {
           href="https://github.com/Samuelsts"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-web hover:text-desktop transition"
+          className="text-blcg hover:text-desktop transition"
         >
           <FaGithub size={18} />
         </a>
