@@ -28,10 +28,10 @@ const DesktopVersion = () => {
           <VersionSwitcher />
           <div className="mt-4 sm:mt-0">
             <ResetUserButton />
-            <p className="mt-4 text-xs text-center text-white/80">
+            <p className="mt-4 text-xs text-center text-white/70">
               Precisa de ajuda? Fale com o suporte: <br />
               <a href="tel:+557533433850" className="underline hover:text-white">
-                (071) 3343-3850 - de Seg a Sex - Horário Comercial
+                (071) 3343-3850 <br /><p className="text-xxs no-underline">De Seg a Sex - Horário Comercial</p>
               </a>
             </p>
           </div>

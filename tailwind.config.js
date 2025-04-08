@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      fontSize: {
+        xxs: "10px",
+      },
       colors: {
         brand: "#59C4D2", // Cor principal da marca
         web: "#E5FCFF", // Associada ao ClinicAll Web
@@ -20,19 +23,19 @@ module.exports = {
       },
       keyframes: {
         wave: {
-          '0%': { transform: 'rotate(0deg)' },
-          '10%': { transform: 'rotate(30deg)' },
-          '20%': { transform: 'rotate(-8deg)' },
-          '30%': { transform: 'rotate(30deg)' },
-          '40%': { transform: 'rotate(-4deg)' },
-          '50%': { transform: 'rotate(10deg)' },
-          '60%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(0deg)' },
-        }
+          "0%": { transform: "rotate(0deg)" },
+          "10%": { transform: "rotate(30deg)" },
+          "20%": { transform: "rotate(-8deg)" },
+          "30%": { transform: "rotate(30deg)" },
+          "40%": { transform: "rotate(-4deg)" },
+          "50%": { transform: "rotate(10deg)" },
+          "60%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(0deg)" },
+        },
       },
       animation: {
-        wave: 'wave 2s ease-in-out'
-      }
+        wave: "wave 2s ease-in-out",
+      },
     },
   },
   plugins: [],
