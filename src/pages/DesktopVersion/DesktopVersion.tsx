@@ -31,8 +31,9 @@ const DesktopVersion = () => {
             <p className="mt-4 text-xs text-center text-white/70">
               Precisa de ajuda? Fale com o suporte: <br />
               <a href="tel:+557533433850" className="underline hover:text-white">
-                (071) 3343-3850 <br /><p className="text-xxs no-underline">De Seg a Sex - Horário Comercial</p>
+                (071) 3343-3850 <br />
               </a>
+              <p className="text-xxs no-underline">De Seg a Sex - Horário Comercial</p>
             </p>
           </div>
         </div>

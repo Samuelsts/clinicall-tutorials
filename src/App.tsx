@@ -6,6 +6,7 @@ import { InitialModal } from "./components/Modal/InitialModal";
 import WebVersion from "./pages/WebVersion/WebVersion";
 import DesktopVersion from "./pages/DesktopVersion/DesktopVersion";
 
+
 function App() {
   return (
     <>
