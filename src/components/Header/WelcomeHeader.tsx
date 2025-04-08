@@ -10,8 +10,8 @@ export function WelcomeHeader({ pageTitle, pageDescription }: WelcomeHeaderProps
   return (
     <div className="mb-8 px-4 md:px-8 text-blc2 sm:mb-2">
       <h2 className="text-2xl font-semibold">
-        Olá, <span className="text-desktop">{user?.name || "Usuário"}</span>, bem vindo! 
-        <span className="inline-block animate-wave origin-[70%_100%]">👋</span>
+        Olá, <span className="text-desktop">{user?.name || "Usuário"}</span>, bem vindo!
+        <span className="inline-block animate-wave origin-[70%_100%] delay-1000">👋</span>
       </h2>
       <p className="text-sm text-gray-600 mb-8">
         Empresa: <strong>{user?.company || "Empresa"}</strong>
