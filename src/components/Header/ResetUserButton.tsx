@@ -11,7 +11,7 @@ export function ResetUserButton() {
   return (
     <button
       onClick={handleReset}
-      className="hover:bg-background px-2 py-3 mt-2 sm:mt-1 rounded-md text-blcg text-sm hover:text-red-600  hover:text-red-800"
+      className="hover:bg-web/70 px-2 py-3 mt-2 sm:mt-1 rounded-md text-blcg text-sm hover:text-red-600  hover:text-red-800"
     >
       Redefinir dados do usuário
     </button>

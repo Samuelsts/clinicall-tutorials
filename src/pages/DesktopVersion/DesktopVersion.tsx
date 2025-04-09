@@ -12,17 +12,17 @@ import { motion } from "framer-motion";
 const DesktopVersion = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col sm:flex-row">
-      <header className="w-full sm:w-60 bg-desktop/90 text-white py-6 shadow-sm flex-shrink-0">
+      <header className="w-full sm:w-60 bg-desktop/90 text-blcg py-6 shadow-sm flex-shrink-0">
         <div className="px-4 flex flex-col items-center">
           <img
             src={DesktopIcon}
             alt="Versão Desktop"
             className="w-20 sm:w-20 h-auto p-4 mb-2 m-auto bg-backgroundAlt rounded-full shadow-xl"
           />
-          <h1 className="text-support text-lg sm:text-xl font-bold text-center">
+          <h1 className="text-blcg text-lg sm:text-xl font-bold text-center">
             Clinic All - Versão Desktop
           </h1>
-          <p className="text-support text-xs text-center mt-1 mb-4">
+          <p className="text-blcg text-xs text-center mt-1 mb-4">
             Tutoriais para usuários da versão desktop do sistema.
           </p>
           <VersionSwitcher />
@@ -30,7 +30,7 @@ const DesktopVersion = () => {
             <ResetUserButton />
             <p className="mt-4 text-xs text-center text-white/70">
               Precisa de ajuda? Fale com o suporte: <br />
-              <a href="tel:+557533433850" className="underline hover:text-white">
+              <a href="tel:+557133433850" className="hover:text-white">
                 (071) 3343-3850 <br />
               </a>
               <p className="text-xxs no-underline">De Seg a Sex - Horário Comercial</p>

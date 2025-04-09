@@ -10,7 +10,7 @@ const VersionSwitcher = () => {
       {isOnWebPage && (
         <Link
           to="/desktop"
-          className="inline-block text-desktop hover:text-desktop rounded hover:bg-background transition mb-2 py-3 px-2"
+          className="inline-block text-desktop hover:text-desktop rounded hover:bg-web/70 transition mb-2 py-3 px-2"
         >
           Ir para Versão Desktop
         </Link>
@@ -19,7 +19,7 @@ const VersionSwitcher = () => {
       {isOnDesktopPage && (
         <Link
           to="/web"
-          className="inline-block px-4 py-2  text-support rounded hover:bg-desktop transition"
+          className="inline-block px-4 py-2  text-blcg rounded hover:bg-brand transition"
         >
           Ir para Versão Web
         </Link>

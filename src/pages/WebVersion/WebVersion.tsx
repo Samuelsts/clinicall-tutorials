@@ -21,7 +21,7 @@ const WebVersion = () => {
           <h1 className="text-desktop text-lg sm:text-xl font-bold text-center">
             Clinic All - Versão Web
           </h1>
-          <p className="text-desktop text-xs text-center mt-1 mb-4">
+          <p className="text-blcg text-xs text-center mt-1 mb-4">
             Tutoriais para usuários da versão web do sistema.
           </p>
           <VersionSwitcher />
@@ -29,7 +29,7 @@ const WebVersion = () => {
             <ResetUserButton />
             <p className="mt-4 text-xs text-center text-white/70">
               Precisa de ajuda? Fale com o suporte: <br />
-              <a href="tel:+557533433850" className="underline hover:text-white">
+              <a href="tel:+557133433850" className=" hover:text-white">
               (071) 3343-3850 <br />
               </a>
               <p className="text-xxs no-underline">De Seg a Sex - Horário Comercial</p>
